@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="searchbox">
+            <input type="text" placeholder="enter the city" class="inputbox">
+            <button id="searchbtn" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+    </div>
+    <div class="location_not_exist">
+        <h2>location not found</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd8LWlb8l34MXvr3BonwEYsd11lw1QKQVEiQ&s" alt="">
+
+    </div>
+    <div class="weather_show">
+        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/rainfall_in_patna_0_1200x768.jpeg?VersionId=SzqcFt1bfl82Q.X.f4Xjw9Wn5AOGfAp0&size=690:388" alt="" class="wimg">
+        <div class="weather-box">
+            <p class="temp">0<sup>0</sup>C</p>
+            <p class="description">light rain</p>
+        </div>
+        <div class="weather_details">
+            <div class="humidity">
+                <i class="fa-sharp fa-solid fa-droplet"></i>
+                <div class="text">
+                    <span id="humidity">50%</span>
+                    <p>humidity</p>
+
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-sharp fa-solid fa-wind"></i>
+                <div class="text">
+                    <span id="wind_speed">80km/h</span>
+                    <p>wind speed</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+    
+</body>
+</html>
